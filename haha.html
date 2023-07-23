@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(44, 43, 43);
+    font-family: sans-serif ;
+}
+
+.logo {
+    text-align: center;
+    color: rgb(195, 194, 194);
+    cursor: pointer;
+    ;
+}
+
+.lio {
+    color: rgb(234, 163, 21);
+}
+
+.lio:hover {
+    color: rgb(195, 194, 194);
+    transition: 0.5s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131313;
+    border-bottom: 10px solid rgb(223, 148, 8);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: rgb(234, 163, 21);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    transition: 0.5s;
+    color: white;
+    transform: scale(1.2);
+}
+
+.tkr12 {
+    border-image: none;
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+.section-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fa);
+    column-gap: 40px;
+    width: 80%;
+    margin: 60px auto;
+    background-color: orange;
+}
+.card__img {
+    width: 100%;
+    display: block;
+}
+    </style>
+</head>
+
+<body>
+    <div class="home">
+        <nav>
+            <h2 class="logo">Structure <span class="lio">Class</span></h2>
+            <img src="tkr1.png" class="tkr12">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Product.html">Service</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="section-card">
+        <div class="card card-1">
+            <img src="tkr1.png" alt="Wali Kelas" class="card__img">
+            <div class="card__details">
+                <ul>
+                    <li>Nama : Anggita senja</li>
+                    <li>Guru TKR</li>
+                </ul>
+            </div>
+            <a href="#" class="btn">Suka</a>
+        </div>
+        <div class="card card-2"></div>
+        <div class="card card-3"></div>
+    </section>
+</body>
+</html>
